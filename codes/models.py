@@ -59,10 +59,7 @@ class KGEModel(nn.Module, ABC):
                     - positive_sample: tensor with shape [batch_size, 3]
                     - negative_sample: tensor with shape [batch_size, negative_sample_size]
         """
-        if torch.randn(1)[0] > 3:
-            print("self.relation_embedding", self.relation_embedding[0][:10])
-            print("self.entity_embedding", self.entity_embedding[0][:10])
-        
+
         if batch_type == BatchType.SINGLE:
             head = torch.index_select(
                 self.entity_embedding,

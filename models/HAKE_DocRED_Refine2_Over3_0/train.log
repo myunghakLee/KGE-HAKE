@@ -1,0 +1,31 @@
+2021-06-01 15:22:29 INFO     Model: HAKE
+2021-06-01 15:22:29 INFO     Data Path: data/DocRED_Refine2_Over3
+2021-06-01 15:22:29 INFO     Num Entity: 2254
+2021-06-01 15:22:29 INFO     Num Relation: 82
+2021-06-01 15:22:29 INFO     Num Train: 5446
+2021-06-01 15:22:29 INFO     Num Valid: 553
+2021-06-01 15:22:29 INFO     Num Test: 553
+2021-06-01 15:22:29 INFO     Model Parameter Configuration:
+2021-06-01 15:22:29 INFO     Parameter gamma: torch.Size([1]), require_grad = False
+2021-06-01 15:22:29 INFO     Parameter embedding_range: torch.Size([1]), require_grad = False
+2021-06-01 15:22:29 INFO     Parameter entity_embedding: torch.Size([2254, 1000]), require_grad = True
+2021-06-01 15:22:29 INFO     Parameter relation_embedding: torch.Size([82, 1500]), require_grad = True
+2021-06-01 15:22:29 INFO     Parameter phase_weight: torch.Size([1, 1]), require_grad = True
+2021-06-01 15:22:29 INFO     Parameter modulus_weight: torch.Size([1, 1]), require_grad = True
+2021-06-01 15:22:33 INFO     Randomly Initializing HAKE Model...
+2021-06-01 15:22:33 INFO     Start Training...
+2021-06-01 15:22:33 INFO     init_step = 0
+2021-06-01 15:22:33 INFO     batch_size = 512
+2021-06-01 15:22:33 INFO     hidden_dim = 500
+2021-06-01 15:22:33 INFO     gamma = 6.000000
+2021-06-01 15:22:33 INFO     adversarial_temperature = 0.500000
+2021-06-01 15:22:34 INFO     Training average positive_sample_loss at step 0: 0.035830
+2021-06-01 15:22:34 INFO     Training average negative_sample_loss at step 0: 3.344730
+2021-06-01 15:22:34 INFO     Training average loss at step 0: 1.690280
+2021-06-01 15:22:34 INFO     Evaluating on Valid Dataset...
+2021-06-01 15:22:35 INFO     Evaluating the model... (0/140)
+2021-06-01 15:22:36 INFO     Valid MRR at step 0: 0.002961
+2021-06-01 15:22:36 INFO     Valid MR at step 0: 1122.053345
+2021-06-01 15:22:36 INFO     Valid HITS@1 at step 0: 0.000000
+2021-06-01 15:22:36 INFO     Valid HITS@3 at step 0: 0.000000
+2021-06-01 15:22:36 INFO     Valid HITS@10 at step 0: 0.003617
